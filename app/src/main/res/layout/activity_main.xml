@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtBirthYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Birth Year: (1999)" />
+
+    <Button
+        android:id="@+id/btnFindMyAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find My Age"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtAgeResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Age is: 0 years old"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>
