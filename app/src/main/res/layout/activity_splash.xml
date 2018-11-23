@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Splash"
     android:layout_centerHorizontal="true"
-    android:background="@drawable/find"
+    android:background="@drawable/b"
     android:padding="15dp">
 
 

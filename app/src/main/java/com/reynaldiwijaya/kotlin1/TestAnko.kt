@@ -19,7 +19,6 @@ class TestAnko: AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-
         //TODO: Menggunakan Anko Layout
         linearLayout{
             orientation = LinearLayout.VERTICAL
